@@ -86,6 +86,9 @@ nav a {
 	padding: 15px 10px;
 }
 
+.current {
+	color:black;
+}
 
 /***********************************************
 PAGE: INDEX+Comics
@@ -274,6 +277,38 @@ PAGE: Archive
 	max-height: 200px;
 	padding: 3px 3px 0px 3px;
 }
+
+/***********************************************
+PAGE: Glossary
+************************************************/
+
+#glossary {
+	margin:auto;
+	padding:auto;
+}
+
+#glist {
+	list-style: none;
+	width: 70%;
+	margin:auto;
+	margin-top:4%;
+}
+
+#glist li {
+	padding:0;
+	margin: 2% 0;
+}
+
+#gsubject {
+	color: #1F7395;
+	font-weight: bold;
+}
+
+#gcontent {
+	color: black;
+}
+
+
 
 
 /***********************************************
