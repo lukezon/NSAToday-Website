@@ -87,6 +87,12 @@ nav a {
 }
 
 
+
+#current {
+	color:black;
+}
+
+
 /***********************************************
 PAGE: INDEX+Comics
 ************************************************/
@@ -356,10 +362,6 @@ nav a, nav a:visited {
 
 nav a.selected, nav a:hover {
 	color: #000;
-}
-
-.current {
-	color:black;
 }
 
 
