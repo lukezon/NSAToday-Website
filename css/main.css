@@ -233,13 +233,48 @@ PAGE: About
 
 
 
+/***********************************************
+PAGE: Archive
+************************************************/
 
+#archive {
+	max-width: 70%;
+	margin: auto;
+}
 
+#archive-section {
 
+}
 
+#archive-head {
+	text-align: center;
+	font-size: 1em;
+	color: #1F7395;
+	font-weight: bold;
+	margin-top: 4%;
+	margin-bottom: 1%;
 
+}
 
+#archive-content {
+	width:100%;
+	display: inline-block;
+}
 
+#archive-content a {
+	float: left;
+	margin-right: 2%;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+	margin-top: 2%;
+	background-color: #fff;
+}
+
+#archive-content img {
+	max-height: 200px;
+	padding: 3px 3px 0px 3px;
+}
 
 
 /***********************************************
