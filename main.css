@@ -1,0 +1,235 @@
+/***********************************************
+GENERAL
+************************************************/
+
+
+body {
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+}
+
+
+#wrapper {
+	max-width: 368px;
+	margin: 0 auto;
+	padding: 0	5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/***********************************************
+HEADING
+************************************************/
+
+
+header {
+	margin: 20px 0 20px 0;
+	padding-top: 5px 0 0 0;
+	width: 100%;
+	font-weight: normal;
+}
+
+
+#title {
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: .25em;
+}
+
+h1 {
+	margin: 15px 0;
+	font-size: 2.4em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/***********************************************
+NAVIGATION
+************************************************/
+
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+/***********************************************
+PAGE: INDEX
+************************************************/
+
+#container1 {
+	max-width: 70%;
+	margin: auto;
+	border-width: 1px;
+	border-color: #D3D3D3;
+	border-style: solid;
+	margin-top: 3%;
+
+}
+
+#comic {
+	display: block;
+	margin: auto;
+	max-width: 90%;
+	padding-top: 0;
+	padding-bottom: 5%;
+}
+
+#comicnav {
+	text-align: center;
+	padding: .625em 0;
+}
+
+#comicname {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 0;
+	margin-top: 1%;
+	margin-bottom: 0%;
+
+}
+
+#comicnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#comicnav a {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3%;
+	color: white;
+}
+
+
+
+#comicnav li {
+	width: 9.375em;
+	height: 1.7em;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #FFF;
+	background-color:#000;
+	border: 1.5px solid #333;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	display: inline-block;
+	padding: .1em;
+}
+
+/***********************************************
+COLORS
+************************************************/
+
+
+
+/* Site Body */
+
+body {
+	background-color: #fff;
+	color: #999999;
+}
+
+/* Green Header */
+
+header {
+	background: #fff;
+	border-color: #1F7395;
+}
+
+/* Nav Background on mobile */
+
+nav {
+	background: #1F7395;
+}
+
+/* Logo Text */
+
+h1, h2 {
+	color: black;
+}
+
+/* Links */
+
+a {
+	color: #3399FF;
+}
+
+/* Nav Link Color */
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* Selected Nav Link */
+
+nav a.selected, nav a:hover {
+	color: #000;
+}
+
+
+
+/***********************************************
+FOOTER
+************************************************/
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #cccccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
