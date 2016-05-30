@@ -8,19 +8,12 @@ font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 }
 
-
-#wrapper {
-	max-width: 368px;
-	margin: 0 auto;
-	padding: 0	5%;
-}
-
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 
@@ -31,32 +24,32 @@ HEADING
 
 
 header {
-	margin: 20px 0 20px 0;
-	padding-top: 5px 0 0 0;
-	width: 100%;
-	font-weight: normal;
+    margin: 20px 0 20px 0;
+    padding-top: 5px 0 0 0;
+    width: 100%;
+    font-weight: normal;
 }
 
 
 #title {
-	text-align: center;
-	margin: 0;
-	font-weight: normal;
-	font-size: 60px;
-	letter-spacing: .25em;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: .25em;
 }
 
 h1 {
-	margin: 15px 0;
-	font-size: 2.4em;
-	font-weight: normal;
-	line-height: 0.8em;
+    margin: 15px 0;
+    font-size: 2.4em;
+    font-weight: normal;
+    line-height: 0.8em;
 }
 
 h2 {
-	font-size: 0.75em;
-	margin: -5px 0 0;
-	font-weight: normal;
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
 }
 
 
@@ -66,28 +59,28 @@ NAVIGATION
 
 
 nav {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
 }
 
 nav li {
-	display: inline-block;
+    display: inline-block;
 }
 
 nav a {
-	font-weight: 800;
-	padding: 15px 10px;
+    font-weight: 800;
+    padding: 15px 10px;
 }
 
 .current {
-	color:black;
+    color:black;
 }
 
 /***********************************************
@@ -95,79 +88,79 @@ PAGE: INDEX+Comics
 ************************************************/
 
 #container1 {
-	max-width: 70%;
-	margin: auto;
-	border-width: 1px;
-	border-color: #D3D3D3;
-	border-style: solid;
-	margin-top: 3%;
+    max-width: 1100px;
+    margin: auto;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    border-style: solid;
+    margin-top: 3%;
 
 }
 
 #comic {
-	display: block;
-	margin: auto;
-	max-width: 90%;
-	padding-top: 0;
-	padding-bottom: 5%;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    padding-top: 0;
+    padding-bottom: 5%;
 }
 
 #comicnav {
-	text-align: center;
-	padding: .625em 0;
+    text-align: center;
+    padding: .625em 0;
 }
 
 #comicname {
-	text-align: center;
-	color: black;
-	font-weight: bold;
-	font-size: 2em;
-	padding: 0;
-	margin-top: 1%;
-	margin-bottom: 0%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0;
+    margin-top: 1%;
+    margin-bottom: 0%;
 
 }
 
 #comicnav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	padding-top: 0%;
-	padding-bottom: 1%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0%;
+    padding-bottom: 1%;
 }
 
 #comicnav a {
-	display: inline-block;
-	vertical-align: middle;
-	padding: 3%;
-	color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3%;
+    color: white;
 }
 
 
 
 #comicnav li {
-	width: 9.375em;
-	height: 1.7em;
-	margin-left: 5%;
-	margin-right: 5%;
-	color: #FFF;
-	background-color:#000;
-	border: 1.5px solid #333;
-	font-size: 1em;
-	font-weight: 600;
-	text-decoration: none;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	display: inline-block;
-	padding: .1em;
-	margin-top: 1%;
+    width: 9.375em;
+    height: 1.7em;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #FFF;
+    background-color:#000;
+    border: 1.5px solid #333;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    display: inline-block;
+    padding: .1em;
+    margin-top: 1%;
 }
 
 #permalink {
-	text-align: center;
-	color:#111;
-	font-size: 1em;
+    text-align: center;
+    color:#111;
+    font-size: 1em;
 }
 
 
@@ -177,60 +170,57 @@ PAGE: About
 ************************************************/
 
 #aboutcontainer {
-	max-width: 70%;
-	margin: auto;
+    max-width: 1100px;
+    margin: auto;
 }
 
 #contriblist {
-	margin:2.5%;
-	padding:0;
-	list-style: none;
-	display: flex;
-	flex-direction: column;
+    margin:2.5%;
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 #contriblist li {
-	float: center;
-	width: 100%;
-	color: #bdc3c7;
-	border-width: 0px;
-	border-color: #1F7395;
-	border-style: solid;
-	padding: 0;
-	margin: 2.5% 0 0 0;
+    float: center;
+    width: 100%;
+    color: #bdc3c7;
+    border-width: 0px;
+    border-color: #1F7395;
+    border-style: solid;
+    padding: 0;
+    margin: 2.5% 0 0 0;
 }
 
 #contriblist img {
-	width: 24%;
-	margin: 0;
-	padding: 0;
-	border-width: 0 1px 0 0;
-	border-color: #1F7395;
-	border-style: solid;
+    width: 24%;
+    margin: 0;
+    padding: 0;
 }
 
 #contriblist div{
-	float: right;
-	width: 75%;
+    float: right;
+    width: 75%;
 
 }
 
 #contriblist h2 {
-	text-align: center;
-	width: 100%;
-	height: 10%;
-	margin: 1% 0 0 0;
-	font-size: 1.5em;
-	color: #1F7395;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    margin: 1% 0 0 0;
+    font-size: 1.5em;
+    color: #1F7395;
 }
 
 #contriblist p {
-	float: right;
-	width: 100%;
-	max-height: 75%;
-	padding:0;
-	margin: 0;
-	color: black;
+    float: right;
+    width: 100%;
+    max-height: 75%;
+    padding:0;
+    margin: 0;
+    color: black;
 }
 
 
@@ -241,41 +231,42 @@ PAGE: Archive
 ************************************************/
 
 #archive {
-	max-width: 70%;
-	margin: auto;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1%;
 }
 
 #archive-section {
-
+    margin:auto;
 }
 
 #archive-head {
-	text-align: center;
-	font-size: 1em;
-	color: #1F7395;
-	font-weight: bold;
-	margin-top: 4%;
-	margin-bottom: 1%;
+    text-align: center;
+    font-size: 1em;
+    color: #1F7395;
+    font-weight: bold;
+    margin: 4% 2% 0% 2%;
 }
 
 #archive-content {
-	width:100%;
-	display: inline-block;
+    width:100%;
+    display: inline-block;
 }
 
 #archive-content a {
-	float: left;
-	margin-right: 2%;
-	border-style: solid;
-	border-color: #D3D3D3;
-	border-width: 1px;
-	margin-top: 2%;
-	background-color: #fff;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 1px;
+    margin-top: 2%;
+    background-color: #fff;
 }
 
 #archive-content img {
-	max-height: 200px;
-	padding: 3px 3px 0px 3px;
+    max-height: 200px;
+    padding: 3px 3px 0px 3px;
 }
 
 /***********************************************
@@ -283,29 +274,32 @@ PAGE: Glossary
 ************************************************/
 
 #glossary {
-	margin:auto;
-	padding:auto;
+    max-width: 1100px;
+    margin:auto;
+    padding:0 2%;
 }
 
 #glist {
-	list-style: none;
-	width: 70%;
-	margin:auto;
-	margin-top:4%;
+    list-style: none;
+    width: 100%;
+    margin:0;
+    padding:0;
+    margin-top:4%;
 }
 
 #glist li {
-	padding:0;
-	margin: 2% 0;
+    padding:0;
+    margin: 2% 0;
 }
 
 #gsubject {
-	color: #1F7395;
-	font-weight: bold;
+    color: #1F7395;
+    font-weight: bold;
+    padding: 0 1% 0 0;
 }
 
 #gcontent {
-	color: black;
+    color: black;
 }
 
 
@@ -320,45 +314,45 @@ COLORS
 /* Site Body */
 
 body {
-	background-color: #fff;
-	color: #999999;
+    background-color: #fff;
+    color: #999999;
 }
 
 /* Green Header */
 
 header {
-	background: #fff;
-	border-color: #1F7395;
+    background: #fff;
+    border-color: #1F7395;
 }
 
 /* Nav Background on mobile */
 
 nav {
-	background: #1F7395;
+    background: #1F7395;
 }
 
 /* Logo Text */
 
 h1, h2 {
-	color: black;
+    color: black;
 }
 
 /* Links */
 
 a {
-	color: #3399FF;
+    color: #3399FF;
 }
 
 /* Nav Link Color */
 
 nav a, nav a:visited {
-	color: #fff;
+    color: #fff;
 }
 
 /* Selected Nav Link */
 
 nav a.selected, nav a:hover {
-	color: #000;
+    color: #000;
 }
 
 
@@ -369,18 +363,18 @@ FOOTER
 
 
 footer {
-	font-size: 0.75em;
-	text-align: center;
-	clear: both;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	color: #cccccc;
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #cccccc;
 }
 
 .social-icon {
-	width: 20px;
-	height: 20px;
-	margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
 
 
