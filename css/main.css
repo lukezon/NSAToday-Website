@@ -79,9 +79,12 @@ nav a {
     padding: 15px 10px;
 }
 
-.current {
-    color:black;
+
+
+#current {
+	color:black;
 }
+
 
 /***********************************************
 PAGE: INDEX+Comics
