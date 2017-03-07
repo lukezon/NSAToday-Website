@@ -124,8 +124,9 @@ PAGE: INDEX+Comics
     font-weight: bold;
     font-size: 1.5em;
     padding: 0;
-    margin-top: 1%;
-    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: ;
 
 }
 
@@ -257,6 +258,15 @@ PAGE: About
     margin-top: 1%;
     margin-bottom: 0%;  
     font-weight: 800;
+}
+
+#abouttitle {
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    margin: 1% 0 0 0;
+    font-size: 1.5em;
+    color: #144362;
 }
 
 
