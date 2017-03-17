@@ -148,9 +148,8 @@ PAGE: INDEX+Comics
 
 
 #comicnav li {
-    max-width: 9.375em;
-    min-width: 25%;
-    height: 1.7em;
+    min-width: 20%;
+    height: auto;
     margin-left: 0%;
     margin-right: 0%;
     color: #FFF;
