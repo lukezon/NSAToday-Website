@@ -116,6 +116,7 @@ PAGE: INDEX+Comics
 #comicnav {
     text-align: center;
     padding: .625em 0;
+
 }
 
 #comicname {
@@ -134,7 +135,6 @@ PAGE: INDEX+Comics
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-top: 0%;
     padding-bottom: 1%;
 }
 
@@ -148,10 +148,9 @@ PAGE: INDEX+Comics
 
 
 #comicnav li {
-    min-width: 20%;
+    min-width: 30%;
+    max-width: 1em;
     height: auto;
-    margin-left: 0%;
-    margin-right: 0%;
     color: #FFF;
     background-color:#000;
     border: 1.5px solid #333;
